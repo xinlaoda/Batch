@@ -33,6 +33,11 @@ https://docs.microsoft.com/rest/api/batchservice/computenode/list#nodeagentinfor
 
 ## Change Log
 
+### 1.12.19
+#### Released: 2025-06-09
+- Updated the default permissions for the Linux standard task working directory from 0o750 to 0o700.
+- Support blobfuse2 for Ubuntu 24.04.
+
 ### 1.12.15
 #### Released: 2025-03-26
 - Support Azure Linux 3.0.
